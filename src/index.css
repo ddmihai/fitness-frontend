@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+
+
+@layer base {
+    :root {
+        --color-primary: #1d4ed8;
+        /* Blue-700 */
+        --color-secondary: #fb923c;
+        /* Orange-400 */
+        --color-accent: #14b8a6;
+        /* Teal-500 */
+        --color-dark: #0f172a;
+        /* Slate-900 */
+        --color-light: #f9fafb;
+        /* Gray-50 */
+    }
+}
+
+/* Optional: Use variables in utility classes (example) */
+.text-primary {
+    color: var(--color-primary);
+}
+
+.bg-primary {
+    background-color: var(--color-primary);
+}
